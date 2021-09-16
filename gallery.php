@@ -48,7 +48,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(1).jpg" title="Your caption here!">
+                <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(1).jpg" title="">
                     <img class="responsive-image" src="images/gallery/gallery (3).jpg" alt="img">
                     <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(2).jpg">
                     <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(3).jpg">
