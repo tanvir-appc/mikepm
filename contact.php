@@ -6,6 +6,9 @@
 
 <?php $title = "contact"; ?>
 <style>
+    .terms-para a{
+        color: black;
+    }
     .contact .text {
         position: absolute;
         top: 0;
@@ -38,11 +41,16 @@
     .agreement-wrapper {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .agreement {
         padding-right: 1em;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        width: 60%;
+    }
+    .agreement input {
+        margin-top: 3px;
     }
     .agreement label>p{
         padding-left: 0.5em;
@@ -143,9 +151,9 @@
                                     <div class="agreement">
                                         <input id="agreementRadio" type="radio"  name="agreement" class="requiredRadio" value="">
                                         <label for="agreementRadio" id="" class="">
-                                            <p>
-                                                I agree to the <a href="#">privacy policy</a> and 
-                                                <a href="#">terms of use.</a>
+                                            <p class="terms-para">
+                                                I agree to the <a href="privacy-policy.php">privacy policy</a> and 
+                                                <a href="terms-of-use.php">terms of use.</a>
                                              <span class="">*</span>
                                          </p>
                                         </label>

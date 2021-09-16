@@ -5,7 +5,27 @@
 <title>Privé Fine Ocean Charters | Book Now</title>
 
 <?php $title = "book"; ?>
-
+<style>
+    .terms-para a{
+        color: black;
+    }
+    .agreement {
+        padding-right: 1em;
+        display: flex;
+        align-items: flex-start;
+    }
+    .agreement input {
+        margin-top: 2px;
+    }
+    .agreement-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .agreement {
+        width: 60%;
+    }
+</style>
 
 <?php include_once 'includes/header_bottom.php';?>
 
@@ -1060,9 +1080,9 @@
                                 <div class="">
                                     <input id="bookingAgreement" type="radio"  name="bookingAgreement" class="requiredRadio" value="">
                                     <label for="bookingAgreement" id="" class="">
-                                        <p>
-                                            I agree to the <a href="#">privacy policy</a> and 
-                                            <a href="#">terms of use.</a>
+                                        <p class="terms-para">
+                                            I agree to the <a href="privacy-policy.php">privacy policy</a> and 
+                                            <a href="terms-of-use.php">terms of use.</a>
                                          <span class="">*</span>
                                      </p>
                                     </label>
