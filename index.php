@@ -156,9 +156,9 @@
                         </a>
                         <a href="scuba.php">
                             
-                        <strong>DIVING</strong>
+                            <strong>DIVING</strong>
                         </a>
-                        <p><br>Our highly qualified and experienced instructors look forward to diving with you in the very best locations.</p>
+                        <em><br>Our highly qualified and experienced instructors look forward to diving with you in the very best locations.</em>
                     </p>
                     <div class="thumb-clear"></div>
                 </div>
@@ -184,7 +184,7 @@
                             
                         <strong>BEACH ESCAPE</strong>
                         </a>
-                        <p><br>Cruise the shoreline and visit secluded private islands, see the native iguanas or explore distant destinations.</p>
+                        <em><br>Cruise the shoreline and visit secluded private islands, see the native iguanas or explore distant destinations.</em>
                     </p>
                     <div class="thumb-clear"></div>
                 </div>
@@ -213,7 +213,7 @@
                             
                         <strong>BEVERAGES</strong>
                         </a>
-                        <p><br>Selections of fine beverages are inclusive. Still and sparkling water, juices, sodas, beers, wines and rum.</p>
+                        <em><br>Selections of fine beverages are inclusive. Still and sparkling water, juices, sodas, beers, wines and rum.</em>
                     </p>
                     <div class="thumb-clear"></div>
                 </div>
@@ -238,7 +238,7 @@
                             
                             <strong>SEABOB</strong>
                         </a>
-                        <p><br>Try a spin on a fun and exhilarating Seabob personal propulsion aqua scooter.</p>
+                        <em><br>Try a spin on a fun and exhilarating Seabob personal propulsion aqua scooter.</em>
                     </p>
                     <div class="thumb-clear"></div>
                 </div>
@@ -263,7 +263,7 @@
                             
                             <strong>HYDRASPORTS</strong>
                         </a>
-                        <p><br>Unique naval architecture design gives a strength and quality to the vessel that other companies simply cannot compete with.</p>
+                        <em><br>Unique naval architecture design gives a strength and quality to the vessel that other companies simply cannot compete with.</em>
                     </p>
                     <div class="thumb-clear"></div>
                 </div>

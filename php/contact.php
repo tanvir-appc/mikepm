@@ -3,10 +3,10 @@
 	$name = "";
 	$email = "";
 	$message = "";
-	
-	$name =  trim($_POST['contactNameField']);
-	$email =  trim($_POST['contactEmailField']);
-	$message =  trim($_POST['contactMessageTextarea']);
+	 
+	$name =  trim(isset($_POST['contactNameField'])?$_POST['contactNameField']:'');
+	$email =  trim(isset($_POST['contactEmailField'])?$_POST['contactEmailField']:'');
+	$message =  trim(isset($_POST['contactMessageTextarea'])?$_POST['contactMessageTextarea']:'');
 	// variables end
 	
 	// email address starts

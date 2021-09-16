@@ -84,7 +84,7 @@
         <div class="page-header">
             <a href="#" class="deploy-sidebar"></a>
             <a href="/" class="header-logo"><img class="img-responsive" src="images/logo/WPC-Logo-print-B.png" alt="img"></a>
-            <a href="#" class="deploy-contact"></a>
+            <a href="mailto:info@prive-yachts.com" class="deploy-contact"></a>
         </div>
         
         <div class="page-header-clear"></div>

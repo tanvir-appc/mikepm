@@ -72,6 +72,7 @@ jQuery(document).ready(function($) {
 			};
 		});
    		if (errorState === true) {
+   			$('html,body').animate({scrollTop: $('#formTop').offset().top},'slow');
 			return false;
 		}else{
 			if(formSubmitted == 'false'){

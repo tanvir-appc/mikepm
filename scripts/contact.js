@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 		};			
 	});
 	// fields blur function ends
-		
+		 
 	// submit form data starts	   
     function submitData(currentForm, formType){     
 		formSubmitted = 'true';		
@@ -35,17 +35,19 @@ jQuery(document).ready(function($) {
 	// submit form data function starts	
 	// validate form function starts
 	function validateForm(currentForm, formType){		
+		let errorState = false;
 		// hide any error messages starts
 	    $('.formValidationError').hide();
 		$('.fieldHasError').removeClass('fieldHasError');
 	    // hide any error messages ends	
 		$('#' + currentForm + ' .requiredField').each(function(i){		   	 
 			if($(this).val() == '' || $(this).val() == $(this).attr('data-dummy')){				
-				$(this).val($(this).attr('data-dummy'));	
+				// $(this).val($(this).attr('data-dummy'));	
+				if (i===0)
 				$(this).focus();
 				$(this).addClass('fieldHasError');
 				$('#' + $(this).attr('id') + 'Error').fadeIn(300);
-				return false;					   
+				errorState = true;					   
 			};			
 			if($(this).hasClass('requiredEmailField')){				  
 				var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -54,13 +56,25 @@ jQuery(document).ready(function($) {
 					$(tempField).focus();
 					$(tempField).addClass('fieldHasError');
 					$(tempField + 'Error2').fadeIn(300);
-					return false;
+					errorState = true;
 				};			
-			};			
-			if(formSubmitted == 'false' && i == $('#' + currentForm + ' .requiredField').length - 1){
+			};		  
+   		});
+   		$('#' + currentForm + ' .requiredRadio').each(function(i){		   	 
+			if($(this).prop('checked') === false){
+				$(this).addClass('fieldHasError');
+				$('#' + $(this).attr('id') + 'Error').fadeIn(300);			
+				errorState = true;					   
+			};
+		});
+   		if (errorState === true) {
+   			$('html,body').animate({scrollTop: $('#formTop').offset().top},'slow');
+			return false;
+		}else{
+			if(formSubmitted == 'false'){
 			 	submitData(currentForm, formType);
-			};			  
-   		});		
+			};
+		}	
 	};
 	// validate form function ends	
 	

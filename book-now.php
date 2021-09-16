@@ -10,7 +10,7 @@
 <?php include_once 'includes/header_bottom.php';?>
 
 
-
+ 
 
 <div class="all-elements white-bg">
 <?php include_once 'includes/nav.php';?>
@@ -26,7 +26,7 @@
                 </p>
             </div>
         </div>
-        <div class="container white">
+        <div class="container white" id="formTop">
             <div class="content white" style="margin-top: 1.5em;">
                  <h4>Quote Request Form</h4>
                  <p>Field mark with an * is required</p>
@@ -56,6 +56,11 @@
                                     <div class="static-notification-red tap-dismiss-notification">
                                         <p class="center-text uppercase">Email Address is required!</p>
                                     </div>
+                                </div>
+                                <div class="formValidationError" id="bookingEmailValidError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Email address must be valid!</p>
+                                    </div>
                                 </div> 
                                 <div class="formValidationError" id="bookingPhoneError">
                                     <div class="static-notification-red tap-dismiss-notification">
@@ -67,11 +72,7 @@
                                         <p class="center-text uppercase">Agreement is required!</p>
                                     </div>
                                 </div> 
-                                <div class="formValidationError" id="bookingEmailValidError">
-                                    <div class="static-notification-red tap-dismiss-notification">
-                                        <p class="center-text uppercase">Email address must be valid!</p>
-                                    </div>
-                                </div>                                <div class="">
+                                                               <div class="">
                                     <div class="formFieldWrap one-half">
                                         <label for="bookingFirstName" id="" class="">First Name <span class="">*</span>
                                          </label>

@@ -84,7 +84,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d237056.52160314252!2d-72.28550100484391!3d21.818615999999988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x894b45560e82494d%3A0xd84744a33991ccd!2sBig%20Blue%20Collective%20Bonafide%20Watersports%20Adventures!5e0!3m2!1sen!2sus!4v1631449938206!5m2!1sen!2sus" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         
         <div class="container white">
-        	<div class="one-half-responsive content">
+        	<div class="one-half-responsive content" id="formTop">
                 <h4 style="font-weight: 300;color: #888;margin-top: 1em;">Get in Touch</h4>
                 <div class="container no-bottom">
                     <div class="contact-form no-bottom"> 
@@ -117,7 +117,12 @@
                                     <div class="static-notification-red tap-dismiss-notification">
                                         <p class="center-text uppercase">Message field is empty!</p>
                                     </div>
-                                </div>   
+                                </div>
+                                <div class="formValidationError" id="agreementRadioError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Agreement is required!</p>
+                                    </div>
+                                </div> 
                                 <div class="formFieldWrap one-half">
                                     <input type="text" placeholder="Name" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"  autocomplete="randomNAME"/>
                                 </div>
@@ -129,8 +134,8 @@
                                 </div>
                                 <div class="agreement-wrapper">
                                     <div class="agreement">
-                                        <input type="radio"  name="service" class="" value="">
-                                        <label for="" id="" class="">
+                                        <input id="agreementRadio" type="radio"  name="agreement" class="requiredRadio" value="">
+                                        <label for="agreementRadio" id="" class="">
                                             <p>
                                                 I agree to the <a href="#">privacy policy</a> and 
                                                 <a href="#">terms of use.</a>

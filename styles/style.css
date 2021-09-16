@@ -1027,3 +1027,9 @@ p.quote {
 .fieldHasError {
     border: 1px solid #c0392b;
 }
+.thumb-right a, .thumb-left a {
+    display: block;
+}
+.contactTextarea{
+	margin-bottom: 10px!important;
+}
