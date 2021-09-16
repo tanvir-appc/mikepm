@@ -9,7 +9,14 @@
 
 <?php include_once 'includes/header_bottom.php';?>
 
-
+<div id="progress">
+    <div id="email-status">
+        <p class="center-text">
+            Sending Email...
+            <em>Please wait!</em>
+        </p>
+    </div>
+</div>
  
 
 <div class="all-elements white-bg">
@@ -1060,7 +1067,7 @@
                                      </p>
                                     </label>
                                 </div>
-                                <input type="submit" class="submit-btn button button-dark" id="bookingSubmitButton" value="Submit" data-formId="bookingForm"/>
+                                <input style="cursor: pointer;" type="submit" class="submit-btn button button-dark" id="bookingSubmitButton" value="Submit" data-formId="bookingForm"/>
                             </form>
                         </div> 
                         </div>

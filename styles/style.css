@@ -1033,3 +1033,34 @@ p.quote {
 .contactTextarea{
 	margin-bottom: 10px!important;
 }
+#progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFF;
+    z-index: 99999;
+    display: none;
+}
+#email-status {
+    position: fixed;
+    z-index: 99999;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/status.gif);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -125px 0 0 -125px;
+    display: none;
+}
+#email-status p {
+    top: 60%;
+}
+.center-text {
+    text-align: center;
+}

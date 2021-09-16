@@ -26,9 +26,14 @@ jQuery(document).ready(function($) {
     function submitData(currentForm, formType){     
 		formSubmitted = 'true';		
 		var formInput = $('#' + currentForm).serialize();		
-		$.post($('#' + currentForm).attr('action'),formInput, function(data){			
+		$('#progress,#email-status').show();
+		$.post($('#' + currentForm).attr('action'),formInput, function(data){
 			$('#' + currentForm).hide();
-			$('#formSuccessMessageWrap').fadeIn(500);			
+			$('#formSuccessMessageWrap').fadeIn(500);
+			$('#progress,#email-status').hide();						
+		}).fail(function(err){
+			$('#progress,#email-status').hide();
+			alert('Something went wrong. Please try again. If this error keeps coming, please notify the site admin at info@prive-yachts.com . Thanks.')
 		});
 
 	};

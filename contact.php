@@ -56,7 +56,14 @@
 
 <?php include_once 'includes/header_bottom.php';?>
 
-
+<div id="progress">
+    <div id="email-status">
+        <p class="center-text">
+            Sending Email...
+            <em>Please wait!</em>
+        </p>
+    </div>
+</div>
 
 <div class="all-elements">
 <?php include_once 'includes/nav.php';?>
@@ -124,13 +131,13 @@
                                     </div>
                                 </div> 
                                 <div class="formFieldWrap one-half">
-                                    <input type="text" placeholder="Name" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"  autocomplete="randomNAME"/>
+                                    <input type="text" placeholder="Name" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"  autocomplete="rName"/>
                                 </div>
                                 <div class="formFieldWrap ">
-                                    <input type="text" placeholder="Email Address" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"  autocomplete="randomEMAIL"/>
+                                    <input type="text" placeholder="Email Address" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"  autocomplete="rEmail"/>
                                 </div>
                                 <div class="formTextareaWrap">
-                                    <textarea placeholder="Message" name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"  autocomplete="randomMESSAGE"></textarea>
+                                    <textarea placeholder="Message" name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"  autocomplete="rMessage"></textarea>
                                 </div>
                                 <div class="agreement-wrapper">
                                     <div class="agreement">
@@ -144,7 +151,7 @@
                                         </label>
                                     </div>
                                     <div class="formSubmitButtonErrorsWrap submit">
-                                        <input type="submit" class="submit-btn buttonWrap button button-dark" id="contactSubmitButton" value="Submit" data-formId="contactForm"/>
+                                        <input style="cursor: pointer;" type="submit" class="submit-btn buttonWrap button button-dark" id="contactSubmitButton" value="Submit" data-formId="contactForm"/>
                                     </div>
                                 </div>
                             </fieldset>
