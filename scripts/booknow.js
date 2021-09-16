@@ -28,7 +28,10 @@ jQuery(document).ready(function($) {
 		var formInput = $('#' + currentForm).serialize();		
 		$('#progress,#email-status').show();
 		$.post($('#' + currentForm).attr('action'),formInput, function(data){
-			$('#' + currentForm).hide();
+			// $('#' + currentForm).hide();
+			$('input:not([type="submit"]),textarea,select').val('');
+			$('input[type=checkbox],input[type=radio]').prop('checked',false);
+			$('html,body').animate({scrollTop: $('#formTop').offset().top},'slow');
 			$('#formSuccessMessageWrap').fadeIn(500);
 			$('#progress,#email-status').hide();						
 		}).fail(function(err){

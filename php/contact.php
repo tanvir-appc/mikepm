@@ -10,10 +10,10 @@
 	// variables end
 	
 	// email address starts
-	$emailAddress = 'tanvir.dpmiracle@gmail.com';
+	$emailAddress = 'info@prive-yachts.com';
 	// email address ends
 	
-	$subject = "Message From: $name";	
+	$subject = "[Prive Mobile] Message From: $name";	
 	$message = "<strong>From:</strong> $name <br/><br/> <strong>Message:</strong> $message";
 	
 	$headers = 'From: '. $name . '<' . $email . '>' . "\r\n";

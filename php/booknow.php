@@ -31,11 +31,11 @@
 	// variables end
 	
 	// email address starts
-	$emailAddress = 'tanvir.dpmiracle@gmail.com';
+	$emailAddress = 'info@prive-yachts.com';
 	// email address ends
 	
-	$subject = "Booking Request From: $name";	
-	$message = "<strong>Sender Information:</strong> <br/><br/> ".
+	$subject = "[Prive Mobile] Booking Request From $name";	
+	$message = "<strong>Information:</strong> <br/><br/> ".
 				"<strong>Name:</strong> $name <br/> ".
 				"<strong>Email:</strong> $email <br/> ".
 				"<strong>Phone:</strong> $phone <br/> ".

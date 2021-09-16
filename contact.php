@@ -70,7 +70,7 @@
 
         <div class="container white">
             <div class="contact">
-                <img class="responsive-image" src="images/contact/BHM-Prive_Cpontact-hero.jpg" alt="img">
+                <img class="responsive-image" src="images/contact/BHM-Prive-Cpontact-hero.jpg" alt="img">
                 <div class="container no-bottom text">
                     <h4>FIND US HERE</h4>
                     <p>
