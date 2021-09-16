@@ -1,5 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
+<script type="text/javascript" src="scripts/contact.js"></script>
 
 <title>Privé Fine Ocean Charters | Contact Us</title>
 
@@ -95,7 +96,7 @@
                             </div>
                         </div>
                     
-                        <form action="php/contact.php" method="post" class="contactForm" id="contactForm">
+                        <form action="php/contact.php" method="post" class="contactForm" id="contactForm" autocomplete="off">
                             <fieldset>
                                 <div class="formValidationError" id="contactNameFieldError">
                                     <div class="static-notification-red tap-dismiss-notification">
@@ -104,12 +105,12 @@
                                 </div>             
                                 <div class="formValidationError" id="contactEmailFieldError">
                                     <div class="static-notification-red tap-dismiss-notification">
-                                        <p class="center-text uppercase">Mail address required!</p>
+                                        <p class="center-text uppercase">Email address required!</p>
                                     </div>
                                 </div> 
                                 <div class="formValidationError" id="contactEmailFieldError2">
                                     <div class="static-notification-red tap-dismiss-notification">
-                                        <p class="center-text uppercase">Mail address must be valid!</p>
+                                        <p class="center-text uppercase">Email address must be valid!</p>
                                     </div>
                                 </div> 
                                 <div class="formValidationError" id="contactMessageTextareaError">
@@ -118,13 +119,13 @@
                                     </div>
                                 </div>   
                                 <div class="formFieldWrap one-half">
-                                    <input type="text" placeholder="Name" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>
+                                    <input type="text" placeholder="Name" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"  autocomplete="randomNAME"/>
                                 </div>
                                 <div class="formFieldWrap ">
-                                    <input type="text" placeholder="Email Address" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+                                    <input type="text" placeholder="Email Address" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"  autocomplete="randomEMAIL"/>
                                 </div>
                                 <div class="formTextareaWrap">
-                                    <textarea placeholder="Message" name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
+                                    <textarea placeholder="Message" name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"  autocomplete="randomMESSAGE"></textarea>
                                 </div>
                                 <div class="agreement-wrapper">
                                     <div class="agreement">

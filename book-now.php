@@ -1,5 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
+<script type="text/javascript" src="scripts/booknow.js"></script>
 
 <title>Privé Fine Ocean Charters | Book Now</title>
 
@@ -40,213 +41,243 @@
                                 </div>
                             </div>
                         <div class="">
-                            <form>
-                                <div class="container">
+                            <form action="php/booknow.php" method="post" class="bookingForm" id="bookingForm" autocomplete="off">
+                                <div class="formValidationError" id="bookingFirstNameError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">First Name is required!</p>
+                                    </div>
+                                </div> 
+                                <div class="formValidationError" id="bookingLastNameError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Last Name is required!</p>
+                                    </div>
+                                </div> 
+                                <div class="formValidationError" id="bookingEmailError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Email Address is required!</p>
+                                    </div>
+                                </div> 
+                                <div class="formValidationError" id="bookingPhoneError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Phone Number is required!</p>
+                                    </div>
+                                </div> 
+                                <div class="formValidationError" id="bookingAgreementError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Agreement is required!</p>
+                                    </div>
+                                </div> 
+                                <div class="formValidationError" id="bookingEmailValidError">
+                                    <div class="static-notification-red tap-dismiss-notification">
+                                        <p class="center-text uppercase">Email address must be valid!</p>
+                                    </div>
+                                </div>                                <div class="">
                                     <div class="formFieldWrap one-half">
-                                        <label for="" id="" class="">First Name <span class="">*</span>
+                                        <label for="bookingFirstName" id="" class="">First Name <span class="">*</span>
                                          </label>
-                                        <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField">
+                                        <input  autocomplete="randomFNAME" type="text" name="bookingFirstName" value="" class="contactField requiredField" id="bookingFirstName">
                                     </div>
                                     <div class="two-half last-column">
-                                        <label for="" id="" class="">Last Name <span class="">*</span> 
+                                        <label for="bookingLastName" id="" class="">Last Name <span class="">*</span> 
                                         </label>
-                                        <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField">
+                                        <input type="text" name="bookingLastName" value="" class="contactField requiredField" id="bookingLastName"  autocomplete="randomLNAME">
                                     </div>
                                 </div>
-                                <div class="container">
+                                <div class="">
                                     <div class="formFieldWrap one-half">
-                                        <label for="" id="" class="">Email <span class="">*</span>
+                                        <label for="bookingEmail" id="" class="">Email <span class="">*</span>
                                          </label>
-                                        <input type="email" name="contactNameField" value="" class="contactField requiredField">
+                                        <input id="bookingEmail" type="text" name="bookingEmail" value="" class="contactField requiredEmailField requiredField"  autocomplete="randomEMAIL">
                                     </div>
                                     <div class="two-half last-column">
-                                        <label for="" id="" class="">Phone <span class="ninja-forms-req-symbol">*</span> 
+                                        <label for="bookingPhone" id="" class="">Phone <span class="ninja-forms-req-symbol">*</span> 
                                         </label>
-                                        <input type="number" name="contactNameField" value="" class="contactField requiredField">
+                                        <input id="bookingPhone" type="number" name="bookingPhone" value="" class="contactField requiredField"  autocomplete="randomPHONE">
                                     </div>
                                 </div>
                                 <div class="">
                                     <label for="" id="" class="">Address  </label>
-                                    <input type="text" name="contactNameField" value="" class="contactField requiredField">
+                                    <input type="text" name="bookingAddress" value="" class="contactField"  autocomplete="randomADDRESS">
                                 </div>
-                                <div class="one-half">
-                                    <label for="" id="" class="">City  </label>
-                                    <input type="text" name="contactNameField" value="" class="contactField requiredField">
-                                </div>
-                                <div class="two-half last-column">
+                                <div class="">
                                     <div class="one-half">
-                                        <label for="" id="" class="">State  </label>
-                                    <select class="contactField" name="">
-                                        <option value="AL" selected="selected">Alabama</option>
-
-
-                                        <option value="AK">Alaska</option>
-
-
-                                        <option value="HI">Hawaii</option>
-
-
-                                        <option value="ID">Idaho</option>
-
-
-                                        <option value="IL">Illinois</option>
-
-
-                                        <option value="IN">Indiana</option>
-
-
-                                        <option value="IA">Iowa</option>
-
-
-                                        <option value="KS">Kansas</option>
-
-
-                                        <option value="KY">Kentucky</option>
-
-
-                                        <option value="LA">Louisiana</option>
-
-
-                                        <option value="ME">Maine</option>
-
-
-                                        <option value="MD">Maryland</option>
-
-
-                                        <option value="AZ">Arizona</option>
-
-
-                                        <option value="MA">Massachusetts</option>
-
-
-                                        <option value="MI">Michigan</option>
-
-
-                                        <option value="MN">Minnesota</option>
-
-
-                                        <option value="MS">Mississippi</option>
-
-
-                                        <option value="MO">Missouri</option>
-
-
-                                        <option value="MT">Montana</option>
-
-
-                                        <option value="NE">Nebraska</option>
-
-
-                                        <option value="NV">Nevada</option>
-
-
-                                        <option value="NH">New Hampshire</option>
-
-
-                                        <option value="NJ">New Jersey</option>
-
-
-                                        <option value="AR">Arkansas</option>
-
-
-                                        <option value="NM">New Mexico</option>
-
-
-                                        <option value="NY">New York</option>
-
-
-                                        <option value="NC">North Carolina</option>
-
-
-                                        <option value="ND">North Dakota</option>
-
-
-                                        <option value="OH">Ohio</option>
-
-
-                                        <option value="OK">Oklahoma</option>
-
-
-                                        <option value="OR">Oregon</option>
-
-
-                                        <option value="PA">Pennsylvania</option>
-
-
-                                        <option value="RI">Rhode Island</option>
-
-
-                                        <option value="SC">South Carolina</option>
-
-
-                                        <option value="CA">California</option>
-
-
-                                        <option value="SD">South Dakota</option>
-
-
-                                        <option value="TN">Tennessee</option>
-
-
-                                        <option value="TX">Texas</option>
-
-
-                                        <option value="UT">Utah</option>
-
-
-                                        <option value="VT">Vermont</option>
-
-
-                                        <option value="VA">Virginia</option>
-
-
-                                        <option value="WA">Washington</option>
-
-
-                                        <option value="WV">West Virginia</option>
-
-
-                                        <option value="WI">Wisconsin</option>
-
-
-                                        <option value="WY">Wyoming</option>
-
-
-                                        <option value="CO">Colorado</option>
-
-
-                                        <option value="AE">ARMED FORCES AFRICA \ CANADA \ EUROPE \ MIDDLE EAST</option>
-
-
-                                        <option value="AA">ARMED FORCES AMERICA (EXCEPT CANADA)</option>
-
-
-                                        <option value="AP">ARMED FORCES PACIFIC</option>
-
-
-                                        <option value="CT">Connecticut</option>
-
-
-                                        <option value="DE">Delaware</option>
-
-
-                                        <option value="FL">Florida</option>
-
-
-                                        <option value="GA">Georgia</option>
-
-                                    </select>
+                                        <label for="" id="" class="">City  </label>
+                                        <input type="text" name="bookingCity" value="" class="contactField"  autocomplete="randomCITY">
                                     </div>
                                     <div class="two-half last-column">
-                                    <label for="" id="" class="">Zip  </label>
-                                    <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField">
-                                </div>
-                                    
+                                        <div class="one-half">
+                                        <label for="" id="bookingState" class="">State  </label>
+                                            <select class="contactField" name="bookingState" >
+                                                <option value="AL" selected="selected">Alabama</option>
+
+
+                                                <option value="AK">Alaska</option>
+
+
+                                                <option value="HI">Hawaii</option>
+
+
+                                                <option value="ID">Idaho</option>
+
+
+                                                <option value="IL">Illinois</option>
+
+
+                                                <option value="IN">Indiana</option>
+
+
+                                                <option value="IA">Iowa</option>
+
+
+                                                <option value="KS">Kansas</option>
+
+
+                                                <option value="KY">Kentucky</option>
+
+
+                                                <option value="LA">Louisiana</option>
+
+
+                                                <option value="ME">Maine</option>
+
+
+                                                <option value="MD">Maryland</option>
+
+
+                                                <option value="AZ">Arizona</option>
+
+
+                                                <option value="MA">Massachusetts</option>
+
+
+                                                <option value="MI">Michigan</option>
+
+
+                                                <option value="MN">Minnesota</option>
+
+
+                                                <option value="MS">Mississippi</option>
+
+
+                                                <option value="MO">Missouri</option>
+
+
+                                                <option value="MT">Montana</option>
+
+
+                                                <option value="NE">Nebraska</option>
+
+
+                                                <option value="NV">Nevada</option>
+
+
+                                                <option value="NH">New Hampshire</option>
+
+
+                                                <option value="NJ">New Jersey</option>
+
+
+                                                <option value="AR">Arkansas</option>
+
+
+                                                <option value="NM">New Mexico</option>
+
+
+                                                <option value="NY">New York</option>
+
+
+                                                <option value="NC">North Carolina</option>
+
+
+                                                <option value="ND">North Dakota</option>
+
+
+                                                <option value="OH">Ohio</option>
+
+
+                                                <option value="OK">Oklahoma</option>
+
+
+                                                <option value="OR">Oregon</option>
+
+
+                                                <option value="PA">Pennsylvania</option>
+
+
+                                                <option value="RI">Rhode Island</option>
+
+
+                                                <option value="SC">South Carolina</option>
+
+
+                                                <option value="CA">California</option>
+
+
+                                                <option value="SD">South Dakota</option>
+
+
+                                                <option value="TN">Tennessee</option>
+
+
+                                                <option value="TX">Texas</option>
+
+
+                                                <option value="UT">Utah</option>
+
+
+                                                <option value="VT">Vermont</option>
+
+
+                                                <option value="VA">Virginia</option>
+
+
+                                                <option value="WA">Washington</option>
+
+
+                                                <option value="WV">West Virginia</option>
+
+
+                                                <option value="WI">Wisconsin</option>
+
+
+                                                <option value="WY">Wyoming</option>
+
+
+                                                <option value="CO">Colorado</option>
+
+
+                                                <option value="AE">ARMED FORCES AFRICA \ CANADA \ EUROPE \ MIDDLE EAST</option>
+
+
+                                                <option value="AA">ARMED FORCES AMERICA (EXCEPT CANADA)</option>
+
+
+                                                <option value="AP">ARMED FORCES PACIFIC</option>
+
+
+                                                <option value="CT">Connecticut</option>
+
+
+                                                <option value="DE">Delaware</option>
+
+
+                                                <option value="FL">Florida</option>
+
+
+                                                <option value="GA">Georgia</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="two-half last-column">
+                                            <label for="" id="" class="">Zip  </label>
+                                            <input type="text" name="bookingZip" value="" class="contactField" id="bookingZip"  autocomplete="randomZIP">
+                                        </div>
+                                    </div>
                                 </div>
                                 
                                 <div class="">
-                                    <label for="" id="" class="">Country  </label>
-                                    <select class="contactField" name="">
+                                    <label for="" id="bookingCountry" class="">Country  </label>
+                                    <select class="contactField" name="bookingCountry">
                                         <option value="">- Select Country -</option>
 
 
@@ -977,50 +1008,50 @@
                                     <p class="">Tell us about your CHARTER PREFERENCES...</p>
                                     
 
-                                <div class="container">
+                                <div class="">
                                     <div class="one-half">
-                                    <p>What services may we assist you with?  </p>
-                                    <ul>
-                                        <li>
-                                            <input type="radio" name="service" class="" value="">
-                                            <label for="" id="" class="">Charter Consultation</label>
-                                        </li>
-                                        <li>
-                                            <input type="radio"  name="service" class="" value="">
-                                                <label for="" id="" class="">Price Inquiry</label>
-                                        </li>
-                                        <li>
-                                            <input type="radio"  name="service" class="" value="">
-                                                <label for="" id="" class="">Availability</label>
-                                        </li>
-                                        <li>
-                                            <input type="radio"  name="service" class="" value="">
-                                                <label for="" id="" class="">Support</label>
-                                        </li>
+                                        <p>What services may we assist you with?  </p>
+                                        <ul>
+                                            <li>
+                                                <input id="charterService" type="radio" name="bookingService" class="" value="Charter Consultation">
+                                                <label for="charterService" id="" class="">Charter Consultation</label>
+                                            </li>
+                                            <li>
+                                                <input id="priceService" type="radio"  name="bookingService" class="" value="Price Inquiry">
+                                                    <label for="priceService" id="" class="">Price Inquiry</label>
+                                            </li>
+                                            <li>
+                                                <input id="availabilityService" type="radio"  name="bookingService" class="" value="Availability">
+                                                    <label for="availabilityService" id="" class="">Availability</label>
+                                            </li>
+                                            <li>
+                                                <input id="supportService" type="radio"  name="bookingService" class="" value="Support">
+                                                    <label for="supportService" id="" class="">Support</label>
+                                            </li>
 
-                                    </ul>
-                                </div>
-                                <div class="two-half last-column">
-                                    <label for="" id="" class="">How urgent is this inquiry  
-                                    </label>
-                                    <select class="contactField requiredField" name="">
-                                        <option value="low" selected="selected">Low</option>
-                                        <option value="medium">Medium</option>
-                                        <option value="high">High</option>
-                                    </select>
-                                    <label for="" id="" class="">Date of Embarkation  </label>
-                                    <div class="pikaday__container">
-                                        <input type="text" class="contactField requiredField" placeholder="">
+                                        </ul>
+                                    </div>
+                                    <div class="two-half last-column">
+                                        <label for="" id="" class="">How urgent is this inquiry  
+                                        </label>
+                                        <select class="contactField" name="bookingUrgent">
+                                            <option value="low" selected="selected">Low</option>
+                                            <option value="medium">Medium</option>
+                                            <option value="high">High</option>
+                                        </select>
+                                        <label for="" id="bookingDate" class="">Date of Embarkation  </label>
+                                        <div class="pikaday__container">
+                                            <input type="text" class="contactField" placeholder="" name="bookingDate" id="bookingDate"  autocomplete="randomDATE">
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="">
+                                    <label for="bookingDesc" id="" class="">Describe your perfect charter  </label>
+                                    <textarea class="contactField" name="bookingDesc"  autocomplete="randomDESC"></textarea>
                                 </div>
                                 <div class="">
-                                    <label for="" id="" class="">Describe your perfect charter  </label>
-                                    <textarea class="contactField" name=""></textarea>
-                                </div>
-                                <div class="">
-                                    <input type="radio"  name="service" class="" value="">
-                                    <label for="" id="" class="">
+                                    <input id="bookingAgreement" type="radio"  name="bookingAgreement" class="requiredRadio" value="">
+                                    <label for="bookingAgreement" id="" class="">
                                         <p>
                                             I agree to the <a href="#">privacy policy</a> and 
                                             <a href="#">terms of use.</a>
@@ -1028,7 +1059,7 @@
                                      </p>
                                     </label>
                                 </div>
-                                <button class="button button-dark submit-btn">Submit</button>
+                                <input type="submit" class="submit-btn button button-dark" id="bookingSubmitButton" value="Submit" data-formId="bookingForm"/>
                             </form>
                         </div> 
                         </div>

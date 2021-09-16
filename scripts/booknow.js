@@ -1,4 +1,4 @@
-var $ = jQuery.noConflict();  
+var $ = jQuery.noConflict(); 
 var formSubmitted = 'false';
 
 jQuery(document).ready(function($) {	
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
 		};			
 	});
 	// fields blur function ends
-		
+
 	// submit form data starts	   
     function submitData(currentForm, formType){     
 		formSubmitted = 'true';		
@@ -34,38 +34,56 @@ jQuery(document).ready(function($) {
 	};
 	// submit form data function starts	
 	// validate form function starts
-	function validateForm(currentForm, formType){		
+	function validateForm(currentForm, formType){	
+		let errorState = false;	
 		// hide any error messages starts
 	    $('.formValidationError').hide();
 		$('.fieldHasError').removeClass('fieldHasError');
-	    // hide any error messages ends	
+	    // hide any error messages ends
+	    // declare state var
+	    
 		$('#' + currentForm + ' .requiredField').each(function(i){		   	 
 			if($(this).val() == '' || $(this).val() == $(this).attr('data-dummy')){				
-				$(this).val($(this).attr('data-dummy'));	
+				// $(this).val($(this).attr('data-dummy'));
+				if (i===0)
 				$(this).focus();
 				$(this).addClass('fieldHasError');
 				$('#' + $(this).attr('id') + 'Error').fadeIn(300);
-				return false;					   
-			};			
+				errorState = true;					   
+			};		
 			if($(this).hasClass('requiredEmailField')){				  
 				var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
 				var tempField = '#' + $(this).attr('id');				
 				if(!emailReg.test($(tempField).val())) {
 					$(tempField).focus();
 					$(tempField).addClass('fieldHasError');
-					$(tempField + 'Error2').fadeIn(300);
-					return false;
+					$(tempField + 'ValidError').fadeIn(300);
+					errorState = true;
 				};			
-			};			
-			if(formSubmitted == 'false' && i == $('#' + currentForm + ' .requiredField').length - 1){
+			};
+					
+						  
+   		});
+   		$('#' + currentForm + ' .requiredRadio').each(function(i){		   	 
+			if($(this).prop('checked') === false){
+				$(this).addClass('fieldHasError');
+				$('#' + $(this).attr('id') + 'Error').fadeIn(300);			
+				errorState = true;					   
+			};
+		});
+   		if (errorState === true) {
+			return false;
+		}else{
+			if(formSubmitted == 'false'){
 			 	submitData(currentForm, formType);
-			};			  
-   		});		
+			};
+		}		
 	};
 	// validate form function ends	
 	
 	// contact button function starts
-	$('#contactSubmitButton').click(function() {	
+	$('#bookingSubmitButton').click(function(e) {
+		e.preventDefault();	
 		validateForm($(this).attr('data-formId'));	
 	    return false;		
 	});

@@ -986,3 +986,6 @@ p.quote {
 	background: #1f1f1f;
 	padding: 1em 0;
 }
+.fieldHasError {
+    border: 1px solid #c0392b;
+}
