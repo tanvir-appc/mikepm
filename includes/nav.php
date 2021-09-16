@@ -62,19 +62,19 @@
             <div class="sidebar-breadcrumb">SOCIAL STUFF</div>
             
             <div class="navigation-item">
-                <a href="#" class="nav-item facebook-icon">Facebook<em class="link-item"></em></a>
+                <a href="https://www.facebook.com/waypointPFOC/" target="_blank" class="nav-item facebook-icon">Facebook<em class="link-item"></em></a>
             </div>    
 
 			<div class="sidebar-decoration"></div>
             
             <div class="navigation-item">
-                <a href="#" class="nav-item instagram-icon">Instagram<em class="link-item"></em></a>
+                <a href="https://www.instagram.com/prive_fine_ocean_charters/" target="_blank" class="nav-item instagram-icon">Instagram<em class="link-item"></em></a>
             </div>  
             
             <div class="sidebar-decoration"></div>
             
             <div class="navigation-item">
-                <a href="#" class="nav-item vimeo-icon">Vimeo<em class="link-item"></em></a>
+                <a href="https://vimeo.com/user60384472" target="_blank" class="nav-item vimeo-icon">Vimeo<em class="link-item"></em></a>
             </div> 
         </div>         
     </div>
