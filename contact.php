@@ -1,6 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
-<script type="text/javascript" src="scripts/contact.min.js"></script>
+<script defer type="text/javascript" src="scripts/contact.min.js"></script>
 
 <title>Privé Fine Ocean Charters | Contact Us</title>
 
@@ -59,6 +59,9 @@
     }
     div.submit {
         margin-left: auto;
+    }
+    input,textarea,select{
+        -webkit-appearance: none;
     }
 </style>
 

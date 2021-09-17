@@ -1,6 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
-<script type="text/javascript" src="scripts/booknow.min.js"></script>
+<script defer type="text/javascript" src="scripts/booknow.min.js"></script>
 
 <title>Privé Fine Ocean Charters | Book Now</title>
 
@@ -24,6 +24,9 @@
     }
     .agreement {
         width: 60%;
+    }
+    input,textarea,select{
+        -webkit-appearance: none;
     }
 </style>
 

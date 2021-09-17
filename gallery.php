@@ -5,13 +5,18 @@
 
 <?php $title = "gallery"; ?>
 
+<style>
+    body *{
+        touch-action:none;
+    }
+</style>
 
 <?php include_once 'includes/header_bottom.php';?>
 
 
 
 
-<div class="all-elements">
+<div class="all-elements gallery">
 <?php include_once 'includes/nav.php';?>
     <div class="wide-item-wrapper">
         <div class="wide-item"  style="margin-top: 3px;">
@@ -21,7 +26,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide snorkeling" href="images/snorkeling-gallery/sonarking-gallery1.webp" title="Snorkeling">
+                <a class="swipebox-wide snorkeling" href="images/snorkeling-gallery/sonarking-gallery1.webp">
                     <img class="responsive-image" src="images/snorkeling-gallery/sonarking-gallery16.webp " alt="img">
                     <a class="swipebox-wide" href="images/snorkeling-gallery/sonarking-gallery2.webp">
                     <a class="swipebox-wide" href="images/snorkeling-gallery/sonarking-gallery3.webp">
@@ -88,7 +93,7 @@
             <div class="wide-image">
                 <div class="overlay"></div>
                 <a class="swipebox-wide fishing" href="images/fishing-gallery/fishing-gallery1.webp">
-                    <img class="responsive-image" src="images/gallery/gallery 2.webp" alt="img">
+                    <img class="responsive-image" src="images/gallery/gallery2.webp" alt="img">
                     <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery2.webp">
                     <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery3.webp">
                     <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery4.webp">
@@ -158,7 +163,7 @@
             <div class="wide-image">
                 <div class="overlay"></div>
                 <a class="swipebox-wide jetski" href="images/jetski-gallery/jetski-gallery1.webp">
-                    <img class="responsive-image" src="images/gallery/gallery 7.webp" alt="img">
+                    <img class="responsive-image" src="images/gallery/gallery7.webp" alt="img">
                     <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery2.webp">
                     <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery3.webp">
                     <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery4.webp">
