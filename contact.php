@@ -1,6 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
-<script type="text/javascript" src="scripts/contact.js"></script>
+<script type="text/javascript" src="scripts/contact.min.js"></script>
 
 <title>Privé Fine Ocean Charters | Contact Us</title>
 

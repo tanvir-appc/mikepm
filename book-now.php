@@ -1,6 +1,6 @@
 <?php include_once 'includes/header_top.php';?>
 
-<script type="text/javascript" src="scripts/booknow.js"></script>
+<script type="text/javascript" src="scripts/booknow.min.js"></script>
 
 <title>Privé Fine Ocean Charters | Book Now</title>
 

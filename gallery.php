@@ -21,7 +21,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/snorkeling-gallery/sonarking-gallery  (1).jpg">
+                <a class="swipebox-wide snorkeling" href="images/snorkeling-gallery/sonarking-gallery  (1).jpg" title="Snorkeling">
                     <img class="responsive-image" src="images/snorkeling-gallery/sonarking-gallery  (16).jpg " alt="img">
                     <a class="swipebox-wide" href="images/snorkeling-gallery/sonarking-gallery  (2).jpg">
                     <a class="swipebox-wide" href="images/snorkeling-gallery/sonarking-gallery  (3).jpg">
@@ -44,11 +44,11 @@
         <div class="wide-item">
             <div class="wide-item-titles">
                 <h4>Diving</h4>
-                <p>We have highly qualified and experienced instructors.</p>
+                <p>Highly qualified and experienced instructors.</p>
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(1).jpg" title="">
+                <a class="swipebox-wide diving" href="images/diving-gallery/diving-gallery(1).jpg" title="">
                     <img class="responsive-image" src="images/gallery/gallery (3).jpg" alt="img">
                     <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(2).jpg">
                     <a class="swipebox-wide" href="images/diving-gallery/diving-gallery(3).jpg">
@@ -87,7 +87,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery(1).jpg">
+                <a class="swipebox-wide fishing" href="images/fishing-gallery/fishing-gallery(1).jpg">
                     <img class="responsive-image" src="images/gallery/gallery (2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery(2).jpg">
                     <a class="swipebox-wide" href="images/fishing-gallery/fishing-gallery(3).jpg">
@@ -118,11 +118,11 @@
         <div class="wide-item">
             <div class="wide-item-titles">
                 <h4>Beach Escape</h4>
-                <p>Cruise the shoreline and visit secluded private islands</p>
+                <p>Cruise the shoreline and visit private islands</p>
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/beach-gallery/beach-gallery(1).jpg">
+                <a class="swipebox-wide beach" href="images/beach-gallery/beach-gallery(1).jpg">
                     <img class="responsive-image" src="images/gallery/gallery (8).jpg" alt="img">
                     <a class="swipebox-wide" href="images/beach-gallery/beach-gallery(2).jpg">
                     <a class="swipebox-wide" href="images/beach-gallery/beach-gallery(3).jpg">
@@ -157,7 +157,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery(1).jpg">
+                <a class="swipebox-wide jetski" href="images/jetski-gallery/jetski-gallery(1).jpg">
                     <img class="responsive-image" src="images/gallery/gallery (7).jpg" alt="img">
                     <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery(2).jpg">
                     <a class="swipebox-wide" href="images/jetski-gallery/jetski-gallery(3).jpg">
@@ -181,11 +181,11 @@
         <div class="wide-item">
             <div class="wide-item-titles">
                 <h4>Azimut Gallery</h4>
-                <p>Space and functionality with the fine finishes combined.</p>
+                <p>Space ,functionality and fine finishes.</p>
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/azimut-gallery/azimut-gallery(2).jpg">
+                <a class="swipebox-wide azimut" href="images/azimut-gallery/azimut-gallery(2).jpg">
                     <img class="responsive-image" src="images/azimut-gallery/azimut-gallery(1).jpg" alt="img">
                     <a class="swipebox-wide" href="images/azimut-gallery/azimut-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/azimut-gallery/azimut-gallery(4).jpg">
@@ -234,11 +234,11 @@
         <div class="wide-item">
             <div class="wide-item-titles">
                 <h4>Beverage Gallery</h4>
-                <p>Still and sparkling water, juices, sodas, beers, wines and rum.</p>
+                <p>Selections of fine beverages.</p>
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/beverage-gallery/beverage-gallery(1).jpg">
+                <a class="swipebox-wide beverage" href="images/beverage-gallery/beverage-gallery(1).jpg">
                     <img class="responsive-image" src="images/beverage-gallery/beverage-gallery(2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/beverage-gallery/beverage-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/beverage-gallery/beverage-gallery(4).jpg">
@@ -259,7 +259,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/intrepid-gallery/intrepid-gallery(1).jpg">
+                <a class="swipebox-wide intrepid" href="images/intrepid-gallery/intrepid-gallery(1).jpg">
                     <img class="responsive-image" src="images/intrepid-gallery/intrepid-gallery(2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/intrepid-gallery/intrepid-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/intrepid-gallery/intrepid-gallery(4).jpg">
@@ -291,7 +291,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/catering-gallery/catering-gallery(1).jpg">
+                <a class="swipebox-wide catering" href="images/catering-gallery/catering-gallery(1).jpg">
                     <img class="responsive-image" src="images/catering-gallery/catering-gallery(2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/catering-gallery/catering-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/catering-gallery/catering-gallery(4).jpg">
@@ -306,11 +306,11 @@
         <div class="wide-item">
             <div class="wide-item-titles">
                 <h4>Seabob Gallery</h4>
-                <p>Fun and exhilarating Seabob personal propulsion aqua scooter.</p>
+                <p>Fun and exhilarating aqua scooter.</p>
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/seabob-gallery/seabob-gallery(1).jpg">
+                <a class="swipebox-wide seabob" href="images/seabob-gallery/seabob-gallery(1).jpg">
                     <img class="responsive-image" src="images/seabob-gallery/seabob-gallery(2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/seabob-gallery/seabob-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/seabob-gallery/seabob-gallery(4).jpg">
@@ -329,7 +329,7 @@
             </div>
             <div class="wide-image">
                 <div class="overlay"></div>
-                <a class="swipebox-wide" href="images/hydrasports-gallery/hydrasports-gallery(1).jpg">
+                <a class="swipebox-wide hydra" href="images/hydrasports-gallery/hydrasports-gallery(1).jpg">
                     <img class="responsive-image" src="images/hydrasports-gallery/hydrasports-gallery(2).jpg" alt="img">
                     <a class="swipebox-wide" href="images/hydrasports-gallery/hydrasports-gallery(3).jpg">
                     <a class="swipebox-wide" href="images/hydrasports-gallery/hydrasports-gallery(4).jpg">
