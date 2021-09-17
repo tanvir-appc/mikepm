@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/jetski/jet-ski-img-1-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/jetski/jet-ski-img-1-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/jetski/jet-ski-img-2-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/jetski/jet-ski-img-2-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/jetski/jet-ski-img-3-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/jetski/jet-ski-img-3-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/jetski/jet-ski-img-4-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/jetski/jet-ski-img-4-min.webp" alt="img">
             </div>
         </div>
 <?php include_once 'includes/footer.php';?>

@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                <img style="margin-bottom: 0;" class="responsive-image" src="images/azimut/pfoc_azimut_001-min.jpg" alt="img">
+                <img style="margin-bottom: 0;" class="responsive-image" src="images/azimut/pfoc_azimut_001-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/azimut/pfoc_azimut_002-min.jpg" alt="img">
+                <img class="responsive-image" src="images/azimut/pfoc_azimut_002-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/azimut/pfoc_azimut_003-min.jpg" alt="img">
+                <img class="responsive-image" src="images/azimut/pfoc_azimut_003-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="container">
-                <img class="responsive-image" src="images/azimut/pfoc_azimut_005-min.jpg" alt="img">
+                <img class="responsive-image" src="images/azimut/pfoc_azimut_005-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/azimut/pfoc_azimut_004-min.jpg" alt="img">
+                <img class="responsive-image" src="images/azimut/pfoc_azimut_004-min.webp" alt="img">
             </div>
         </div>
 <?php include_once 'includes/footer.php';?>

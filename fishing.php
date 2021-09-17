@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/fishing/pfoc_fishing_001-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/fishing/pfoc_fishing_001-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/fishing/pfoc_fishing_002-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/fishing/pfoc_fishing_002-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/fishing/pfoc_fishing_005-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/fishing/pfoc_fishing_005-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/fishing/pfoc_fishing_004-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/fishing/pfoc_fishing_004-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/fishing/pfoc_fishing_006-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/fishing/pfoc_fishing_006-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">

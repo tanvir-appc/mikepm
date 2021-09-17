@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/scuba/scuba-diving-img-1-min.jpg" alt="img">
+                <img class="responsive-image" src="images/scuba/scuba-diving-img-1-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/scuba/scuba-diving-img-3-min.jpg" alt="img">
+                <img class="responsive-image" src="images/scuba/scuba-diving-img-3-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/scuba/scuba-diving-img-2-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/scuba/scuba-diving-img-2-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/scuba/scuba-diving-img-5-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/scuba/scuba-diving-img-5-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">

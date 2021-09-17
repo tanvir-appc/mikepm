@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-1.jpg" alt="img">
+                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-1.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-2.jpg" alt="img">
+                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-2.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-4.jpg" alt="img">
+                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-4.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -67,8 +67,8 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-5.jpg" alt="img">
-                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-3.jpg" alt="img">            
+                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-5.webp" alt="img">
+                    <img class="responsive-image" src="images/gourmet-fine-food/gourmet-fine-food-img-3.webp" alt="img">            
             </div>
         </div>
 <?php include_once 'includes/footer.php';?>

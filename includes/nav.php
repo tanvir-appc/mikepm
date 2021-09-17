@@ -1,10 +1,7 @@
 <div id="sidebar" class="page-sidebar">
         <div class="page-sidebar-scroll">
         	<div class="sidebar-shortcuts">
-            	<a href="#" class="shortcut-call"></a>
-                <a href="#" class="shortcut-facebook"></a>
-                <a href="#" class="shortcut-twitter"></a>
-                <a href="#" class="shortcut-search"></a>
+            	<a href="tel:+16492323000" class="shortcut-call"></a>
                 <a href="#" class="shortcut-close"></a>
             </div>
             
@@ -18,10 +15,10 @@
             <div class="sidebar-logo">
                 <div class="container">
                     <div class="one-third">
-                        <img src="images/logo/menu-hero-bublble.png" height="52" alt="img">
+                        <img src="images/logo/menu-hero-bublble.webp" height="52" alt="img">
                     </div>
                     <div class="two-half last-column">
-                        <img src="images/logo/WPC-Logo-print-B.png" height="52" alt="img"> 
+                        <img src="images/logo/WPC-Logo-print-B.webp" height="52" alt="img"> 
                     </div>
                 </div>
             </div>
@@ -83,7 +80,7 @@
     
         <div class="page-header">
             <a href="#" class="deploy-sidebar"></a>
-            <a href="/" class="header-logo"><img class="img-responsive" src="images/logo/WPC-Logo-print-B.png" alt="img"></a>
+            <a href="/" class="header-logo"><img class="img-responsive" src="images/logo/WPC-Logo-print-B.webp" alt="img"></a>
             <a href="mailto:info@prive-yachts.com" class="deploy-contact"></a>
         </div>
         

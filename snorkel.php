@@ -15,7 +15,7 @@
 
         <div class="container">
             <div class="container no-bottom">
-                <img style="margin-bottom: 0;" class="responsive-image" src="images/snorkel/snorkel-img-1-min.jpg" alt="img">
+                <img style="margin-bottom: 0;" class="responsive-image" src="images/snorkel/snorkel-img-1-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/snorkel/snorkel-img-2-min.jpg" alt="img" alt="img">
+                <img class="responsive-image" src="images/snorkel/snorkel-img-2-min.webp" alt="img" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="container">
-                <img class="responsive-image" src="images/snorkel/snorkel-img-3-min.jpg" alt="img">
+                <img class="responsive-image" src="images/snorkel/snorkel-img-3-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    
@@ -62,8 +62,8 @@
                 </div>
             </div>
             <div class="container">
-                <img class="responsive-image" src="images/snorkel/snorkel-img-4-min.jpg" alt="img">
-                <img class="responsive-image" src="images/snorkel/snorkel-img-5-min.jpg" alt="img">
+                <img class="responsive-image" src="images/snorkel/snorkel-img-4-min.webp" alt="img">
+                <img class="responsive-image" src="images/snorkel/snorkel-img-5-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width location-columns">                    
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="container">
-                <img class="responsive-image" src="images/snorkel/snorkel-img-6-min.jpg" alt="img">
+                <img class="responsive-image" src="images/snorkel/snorkel-img-6-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    

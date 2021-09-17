@@ -15,7 +15,7 @@
 
         <div class="container no-bottom">
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-1-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-1-min.webp" alt="img">
             </div>
             <div class="content no-bottom">
                 <div class="portfolio-item-full-width">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-2-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-2-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="container">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-3-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-3-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="container">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-4-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-4-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    
@@ -72,8 +72,8 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                <img class="responsive-image" src="images/hydrasports/hydrasports-img-5-min.jpg" alt="img">
-                <img class="responsive-image" src="images/hydrasports/hydrasports-img-9-min.jpg" alt="img">          
+                <img class="responsive-image" src="images/hydrasports/hydrasports-img-5-min.webp" alt="img">
+                <img class="responsive-image" src="images/hydrasports/hydrasports-img-9-min.webp" alt="img">          
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">                    
@@ -89,8 +89,8 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-6-min.jpg" alt="img">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-5-min.jpg" alt="img"> 
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-6-min.webp" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-5-min.webp" alt="img"> 
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">  
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-7-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-7-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">  
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-8-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-8-min.webp" alt="img">
             </div>
             <div class="content">
                 <div class="portfolio-item-full-width">  
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="container no-bottom">
-                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-9-min.jpg" alt="img">
+                    <img class="responsive-image" src="images/hydrasports/hydrasports-img-9-min.webp" alt="img">
             </div>
         </div>
 <?php include_once 'includes/footer.php';?>
